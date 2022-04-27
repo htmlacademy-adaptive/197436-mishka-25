@@ -1,17 +1,17 @@
-  .feature__list {
-    list-style-type: none;
-  }
+.feature__list {
+  list-style-type: none;
+}
 
-  .feature__link {
-    @include font(700, 19px, 24px);
-    color: $color-text-invert;
-    text-decoration: none;
-  }
+.feature__link {
+  @include font(700, 19px, 24px);
+  color: $color-text-invert;
+  text-decoration: none;
+}
 
-  .feature__link--light {
-    background-color: $color-bg-btn-green;
-  }
+.feature__link--light {
+  background-color: $color-bg-btn-green;
+}
 
-  .feature__link--dark {
-    background-color: $color-bg-btn-green-dark;
-  }
+.feature__link--dark {
+  background-color: $color-bg-btn-green-dark;
+}
