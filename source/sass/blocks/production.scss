@@ -1,0 +1,14 @@
+.production__title {
+  @include font(700, 17px, 24px);
+  color: $color-text-title;
+}
+
+.production__text {
+  @include font(400, 13px, 24px);
+  color: $color-text-second;
+}
+
+.production__order-button {
+  @include font(700, 18px, 16px);
+  text-decoration: none;
+}

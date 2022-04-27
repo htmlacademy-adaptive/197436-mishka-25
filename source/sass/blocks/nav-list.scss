@@ -1,0 +1,5 @@
+.nav-list__item-link {
+  @include font(700, 17px, 24px);
+  color: $color-text-title;
+  text-decoration: none;
+}
