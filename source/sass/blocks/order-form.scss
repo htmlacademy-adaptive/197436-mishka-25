@@ -3,13 +3,13 @@
 }
 
 .order-form__legend {
-  @include font(700, 17px, 16px);
+  @include font-set(700, 17px, 16px);
   text-transform: uppercase;
   color: $color-text-green;
 }
 
 .order-form__label {
-  @include font(700, 17px, 18px);
+  @include font-set(700, 17px, 18px);
   color: $color-text-title;
 
   &--green {
@@ -19,22 +19,22 @@
 }
 
 .order-form__required {
-  @include font(400, 14px, 16px);
+  @include font-set(400, 14px, 16px);
   color: $color-text-second;
 }
 
 .order-form__button {
-  @include font(700, 17px, 16px);
+  @include font-set(700, 17px, 16px);
 }
 
 .order-form__input {
-  @include font(400, 17px, 18px);
+  @include font-set(400, 17px, 18px);
   font-family: inherit;
   color: $color-text-input;
 }
 
 .order-form__input::placeholder {
-  @include font(400, 19px, 18px);
+  @include font-set(400, 19px, 18px);
   font-family: inherit;
   color: $color-text-input-placeholder;
 }

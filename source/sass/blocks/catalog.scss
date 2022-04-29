@@ -1,3 +1,9 @@
+.catalog__title {
+  @include font-set(700, 27px, 30px);
+  color: $color-text-title;
+  background-color: $color-bg-dark;
+}
+
 .catalog__list {
   list-style-type: none;
 }

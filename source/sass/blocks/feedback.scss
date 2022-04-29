@@ -1,21 +1,21 @@
 .feedback__title {
-  @include font(700, 25px, 30px);
+  @include font-set(700, 25px, 30px);
   color: $color-text-title;
 }
 
 .feedback__author-text {
-  @include font(400, 15px, 30px);
+  @include font-set(400, 15px, 30px);
   color: $color-text-second;
 }
 
 .feedback__author-name {
-  @include font(700, 17px, 24px);
+  @include font-set(700, 17px, 24px);
   font-style: normal;
   color: $color-text-title;
 }
 
 .feedback__author-nickname {
-  @include font(400, 17px, 30px);
+  @include font-set(400, 17px, 30px);
   color: $color-text-second;
 }
 

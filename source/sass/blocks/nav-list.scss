@@ -1,5 +1,9 @@
+.nav-list {
+  @include list-reset();
+}
+
 .nav-list__item-link {
-  @include font(700, 17px, 24px);
+  @include font-set(700, 17px, 24px);
   color: $color-text-title;
   text-decoration: none;
 }

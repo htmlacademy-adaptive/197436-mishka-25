@@ -1,4 +1,4 @@
 .studio__title {
-  @include font(700, 19px, 18px);
+  @include font-set(700, 19px, 18px);
   color: $color-text-title;
 }

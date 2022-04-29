@@ -1,5 +1,5 @@
 .product__title {
-  @include font(700, 17px, 24px);
+  @include font-set(700, 17px, 24px);
   color: $color-text-title;
 }
 
@@ -8,11 +8,11 @@
 }
 
 .product__description {
-  @include font(400, 13px, 30px);
+  @include font-set(400, 13px, 30px);
   color: $color-text-second;
 }
 
 .product__price {
-  @include font(700, 15px, 24px);
+  @include font-set(700, 15px, 24px);
   color: $color-text-title;
 }
