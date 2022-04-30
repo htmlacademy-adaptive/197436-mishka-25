@@ -1,0 +1,9 @@
+.section-list {
+  @include list-reset();
+}
+
+.section-list__link {
+  @include font-set(700, 17px, 24px);
+  color: $color-text-title;
+  text-decoration: none;
+}

@@ -1,0 +1,25 @@
+.offer__title {
+  @include font-set(700, 25px, 30px);
+  color: $color-text-title;
+}
+
+.offer__mark {
+  @include font-set(700, 17px, 20px);
+  text-transform: uppercase;
+  color: $color-text-green;
+}
+
+.offer__text {
+  @include font-set(400, 15px, 24px);
+  color: $color-text-second;
+}
+
+.offer__price {
+  @include font-set(700, 17px, 24px);
+  color: $color-text-second;
+}
+
+.offer__table {
+  @include font-set(400, 15px, 20px);
+  color: $color-text-second;
+}

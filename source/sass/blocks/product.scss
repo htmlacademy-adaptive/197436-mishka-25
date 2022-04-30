@@ -1,0 +1,18 @@
+.product__title {
+  @include font-set(700, 17px, 24px);
+  color: $color-text-title;
+}
+
+.product__title-link {
+  text-decoration: none;
+}
+
+.product__description {
+  @include font-set(400, 13px, 30px);
+  color: $color-text-second;
+}
+
+.product__price {
+  @include font-set(700, 15px, 24px);
+  color: $color-text-title;
+}

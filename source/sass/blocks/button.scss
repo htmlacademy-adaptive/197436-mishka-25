@@ -1,0 +1,19 @@
+.button {
+  font-family: $font-default;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000000;
+
+  &--ghost {
+    @include font-set(700, 18px, 20px);
+    color: $color-text-second;
+    background-color: $color-bg-btn-ghost;
+    border-color: $color-border-btn-ghost;
+  }
+
+  &--green {
+    color: $color-text-invert;
+    background-color: $color-bg-btn-green;
+    border-color: $color-border-btn-green;
+  }
+}

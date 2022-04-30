@@ -1,0 +1,9 @@
+.page-body {
+  @include font-set();
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  margin: 0;
+  font-family: $font-default;
+  background-color: $color-bg;
+}

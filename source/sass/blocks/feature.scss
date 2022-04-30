@@ -1,0 +1,25 @@
+.feature__title {
+  @include font-set(700, 27px, 30px);
+  color: $color-text-title;
+  background-color: $color-bg-dark;
+  background-image: url("../../img/hero-mobile2x1.jpg");
+  background-repeat: no-repeat;
+}
+
+.feature__list {
+  @include list-reset();
+}
+
+.feature__link {
+  @include font-set(700, 19px, 24px);
+  color: $color-text-invert;
+  text-decoration: none;
+
+  &--light {
+    background-color: $color-bg-btn-green;
+  }
+
+  &--dark {
+    background-color: $color-bg-btn-green-dark;
+  }
+}

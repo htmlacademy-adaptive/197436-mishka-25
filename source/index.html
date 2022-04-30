@@ -11,7 +11,7 @@
       <h1 class="visually-hidden">Магазин вязаных товаров для дома</h1>
       <nav class="main-nav">
         <div class="page-header__top-wrapper">
-          <a href="/index.html">
+          <a href="./index.html">
             <img class="page-header__logo" src="https://via.placeholder.com/86x35" alt="Мишка логотип">
           </a>
           <button class="main-nav__menu-toggle" type="button">
@@ -20,8 +20,8 @@
         </div>
         <ul class="section-list">
           <li class="section-list__item">
-            <a class="section-list__item-link" href="#">
-              <span class="section-list__item-text">Каталог товаров</span>
+            <a class="section-list__item-link" href="./catalog.html">
+              <span class="section-list__item-text">Каталог товаровв</span>
             </a>
           </li>
           <li class="section-list__item">
@@ -63,12 +63,12 @@
           </header>
           <ul class="feature__list">
             <li class="feature__list-item">
-              <a class="feature__link" href="#">
+              <a class="feature__link feature__link--light" href="#">
                 <p class="feature__item-text">Предметы интерьера</p>
               </a>
             </li>
             <li class="feature__list-item">
-              <a class="feature__link" href="#">
+              <a class="feature__link feature__link--dark" href="#">
                 <p class="feature__item-text">Детские игрушки</p>
               </a>
             </li>
@@ -139,7 +139,7 @@
                   </p>
                 </div>
               </blockquote>
-              <blockquote class="feedback__item visually-hidden">
+              <blockquote class="feedback__item">
                 <div class="feedback__author">
                   <p class="feedback__author-text">
                     Я сестра молодой мамы, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
@@ -154,7 +154,7 @@
                   </p>
                 </div>
               </blockquote>
-              <blockquote class="feedback__item visually-hidden">
+              <blockquote class="feedback__item">
                 <div class="feedback__author">
                   <p class="feedback__author-text">
                     Я двоюродная сестра молодой мамы, но всё равно фотографии не набирали и близко такого количества лайков, как у популярных инстамамочек. В отчаянии, я накупила аксессуаров
@@ -171,14 +171,14 @@
               </blockquote>
             </div>
             <div class="feedback__button-wrapper">
-              <button class="feedback__button feedback__button--previous" type="button">
+              <button class="feedback__button feedback__button--previous button button--ghost" type="button">
                 <span class="visually-hidden">Предыдущий отзыв</span>
               </button>
-              <button class="feedback__button feedback__button--next" type="button">
+              <button class="feedback__button feedback__button--next button button--ghost" type="button">
                 <span class="visually-hidden">Следующий отзыв</span>
               </button>
             </div>
-            <a class="feedback__leave-feedback button" href="#">Написать</a>
+            <a class="feedback__leave-feedback button button--ghost" href="#">Написать</a>
           </div>
         </section>
         <section class="contacts">
@@ -192,9 +192,11 @@
               адрес:
               <span class="contacts__text contacts__text--address">г.Санкт-Петербург ул. Большая Конюшенная д.19/8, офис 101</span>
             </p>
-            <img class="contacts__map" src="https://via.placeholder.com/320x454" alt="г.Санкт-Петербург, ул. Большая Конюшенная, д.19/8, офис 101">
+            <div class="contacts__map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.6037872533277!2d30.320858716439353!3d59.93871648187614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca145cc1%3A0x42b32648d8238007!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LzgsINCh0LDQvdC60YIt0J_QtdGC0LXRgNCx0YPRgNCzLCAxOTExODY!5e0!3m2!1sru!2sru!4v1651013623368!5m2!1sru!2sru" width="320" height="454" style="border:0;" allowfullscreen loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
           </div>
-          <a class="contacts__link button" href="#">Напишите нам</a>
+          <a class="contacts__link button button--ghost" href="#">Напишите нам</a>
         </section>
       </div>
     </main>
@@ -207,21 +209,21 @@
           <h2 class="visually-hidden">Мы в соц-сетях</h2>
           <ul class="social__list">
             <li class="social__list-item">
-              <a class="social__item-link" href="http://www.instagram.com/">
+              <a class="social__item-link" href="http://www.vk.com/">
                 <img src="https://via.placeholder.com/22x21" alt="Инстаграм">
-                <span class="visually-hidden">Мы в Инстаграм</span>
+                <span class="visually-hidden">Мы в VK</span>
               </a>
             </li>
             <li class="social__list-item">
-              <a class="social__item-link" href="http://www.facebook.com/">
+              <a class="social__item-link" href="http://www.youtube.com/">
                 <img src="https://via.placeholder.com/15x28" alt="Фейсбук">
-                <span class="visually-hidden">Мы в Фейсбук</span>
+                <span class="visually-hidden">Мы в Youtube</span>
               </a>
             </li>
             <li class="social__list-item">
-              <a class="social__item-link" href="http://www.twitter.com/">
+              <a class="social__item-link" href="http://www.telegram.com/">
                 <img src="https://via.placeholder.com/23x20" alt="Твиттер">
-                <span class="visually-hidden">Мы в Твиттер</span>
+                <span class="visually-hidden">Мы в Телеграмм</span>
               </a>
             </li>
           </ul>

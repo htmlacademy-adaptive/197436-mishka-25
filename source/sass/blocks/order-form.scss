@@ -1,0 +1,40 @@
+.order-form__fieldset {
+  border: none;
+}
+
+.order-form__legend {
+  @include font-set(700, 17px, 16px);
+  text-transform: uppercase;
+  color: $color-text-green;
+}
+
+.order-form__label {
+  @include font-set(700, 17px, 18px);
+  color: $color-text-title;
+
+  &--green {
+    text-transform: uppercase;
+    color: $color-text-green;
+  }
+}
+
+.order-form__required {
+  @include font-set(400, 14px, 16px);
+  color: $color-text-second;
+}
+
+.order-form__button {
+  @include font-set(700, 17px, 16px);
+}
+
+.order-form__input {
+  @include font-set(400, 17px, 18px);
+  font-family: inherit;
+  color: $color-text-input;
+}
+
+.order-form__input::placeholder {
+  @include font-set(400, 19px, 18px);
+  font-family: inherit;
+  color: $color-text-input-placeholder;
+}
